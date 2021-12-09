@@ -7,7 +7,7 @@ function tz(n){
       var endTime = new Date('2022/2/1 00:00:00');
 
       var t = endTime.getTime()  - nowTime.getTime() ;
-      //alert(t)
+      //alert(t)  //
       if(t>=0){
           var d = Math.floor(t/1000/60/60/24),
               h = Math.floor(t/1000/60/60%24),
